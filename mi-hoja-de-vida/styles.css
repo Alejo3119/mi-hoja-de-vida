@@ -1,0 +1,23 @@
+/* Variables CSS */
+:root {
+    --color-primario: #1e3a8a;      /* Azul marino */
+    --color-secundario: #0ea5e9;    /* Azul cielo */
+    --color-acento: #dc2626;        /* Rojo */
+    --color-exito: #10b981;         /* Verde */
+
+    /* Puedes cambiar la fuente principal */
+    --fuente-principal: 'Oswald', sans-serif;
+    /* O usar una fuente de Google Fonts */
+}
+
+/* Estilos globales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #34495e;
+}
+
+/* ... resto de estilos ... */

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Hoja de Vida - Tu Nombre</title>
+
+    <!-- IMPORTANTE: Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- Tu archivo CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="container mt-5 mb-5">
+      <section class="row g-4">
+        <!-- COLUMNA IZQUIERDA: 4 COLUMNAS -->
+        <section class="col-md-4">
+          <section class="card-info-personal">
+            <!-- FOTO -->
+            <img
+              src="img/foto.jpg"
+              alt="Foto de perfil - Alejandro Quintero Agudelo"
+              class="img-fluid rounded mb-3"
+            />
+
+            <!-- NOMBRE -->
+            <h1 class="nombre">Alejandro Quintero Agudelo</h1>
+
+            <!-- CONTACTO -->
+            <ul class="lista-contacto">
+              <li><strong>📍 Ubicación:</strong> Marinilla, Colombia</li>
+              <li><strong>📱 Teléfono:</strong> +57 300 203 0890</li>
+              <li>
+                <strong>📧 Email:</strong>
+                <a href="mailto:alejandro.quintero@ejemplo.com">alejo.quinteroa1931@gmail.com</a>
+              </li>
+              <li>
+                <strong>🔗 LinkedIn:</strong>
+                <a href="https://linkedin.com/in/alejandro-quintero-a-283a333ab" target="_blank">
+                  linkedin.com/in/alejandro-quintero-a
+                </a>
+              </li>
+            </ul>
+
+            <!-- RESUMEN -->
+            <h2 class="seccion-titulo">Resumen Profesional</h2>
+            <p class="texto-resumen">Estudiante de secundaria con formación técnica complementaria, 
+                en proceso de construir una base sólida de conocimientos en tecnología e informática. 
+                Curioso por todo lo que tiene que ver con tecnologia y avances, 
+                con disposición para aprender y enfrentar nuevos desafíos académicos y profesionales.</p>
+
+            <!-- HABILIDADES -->
+            <h2 class="seccion-titulo">Habilidades Técnicas</h2>
+            <section class="lista-habilidades">
+              <span class="badge bg-primary">HTML5</span>
+              <span class="badge bg-primary">CSS</span>
+              <span class="badge bg-primary">Java</span>
+              <span class="badge bg-primary">Bootstrap</span>
+            </section>
+          </section>
+        </section>
+
+        <!-- COLUMNA DERECHA: 8 COLUMNAS -->
+        <section class="col-md-8">
+          <section class="section-card">
+            <h2 class="seccion-titulo">👨‍🎓 Perfil Académico</h2>
+
+            <section class="item-contenedor">
+              <h3 class="item-titulo">Mi Enfoque</h3>
+              <p class="texto-normal">Me gusta todo lo que tiene que ver con la tecnologia pero me interesa más lo que tiene que ver con backend, 
+                bases de datos, seguridad informática y redes. Estoy en proceso de aprender sobre estos temas y 
+                construir una base sólida de conocimientos para mi futuro profesional. 
+              </p>
+            </section>
+
+            <section class="item-contenedor">
+              <h3 class="item-titulo">Institutos</h3>
+              <ul class="lista-items">
+                <li>
+                  <strong>Nombre del Programa</strong><br />
+                  Institución: MAUJ SCHOOL<br />
+                  <strong></strong><br />
+                  Institución: Cesde<br />
+                </li>
+              </ul>
+            </section>
+          </section>
+          <section class="section-card">
+            <h2 class="seccion-titulo">💼 Experiencia Profesional</h2>
+
+            <section class="experiencia-item">
+              <section class="exp-header">
+                <h3 class="exp-puesto">Estudiante</h3>
+              </section>
+
+              <p class="exp-empresa"><strong>Empresa:</strong> No trabajo</p>
+              <p class="exp-ciudad">📍 Marinilla, Antioquia</p>
+
+              <h4 class="exp-subtitulo">Responsabilidades:</h4>
+              <ul class="lista-responsabilidades">
+                <li>Estudiante en la institución Cesde</li>
+                <li>Estudiante en MAUJ SCHOOL</li>
+                <li>GIMNASIO</li>
+              </ul>
+
+              <h4 class="exp-subtitulo">Logros:</h4>
+              <ul class="lista-responsabilidades">
+                <li>Campeón nacional de robotica VEX - IQ</li>
+              </ul>
+            </section>
+          </section>
+          <section class="section-card">
+            <h2 class="seccion-titulo">📖 Educación y Certificaciones</h2>
+
+
+              <p class="edu-institucion">🏫 MAUJ SCHOOL</p>
+              <p class="edu-detalle">
+                <strong>Estado:</strong> En proceso |
+              </p>
+            </section>
+          </section>
+          <section class="section-card">
+            <h2 class="seccion-titulo">👥 Referencias Personales</h2>
+
+            <section class="referencia-item">
+              <section class="ref-header">
+                <h3 class="ref-nombre">Alejandro Quintero Agudelo</h3>
+                <p class="ref-puesto">Estudiante</p>
+              </section>
+
+              <section class="ref-contacto">
+                <p>
+                  <strong>📧 Email:</strong>
+                  <a href="mailto:correo@ejemplo.com"> alejo.quinteroa1931@gmail.com </a>
+                </p>
+                <p><strong>📱 Teléfono:</strong> +57 300 203 0890</p>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <footer class="footer">
+    <section class="container">
+        <section class="row">
+            
+            <!-- Sección 1 -->
+            <section class="col-md-4 footer-section">
+                <h4 class="footer-titulo">Acerca de</h4>
+                <p class="footer-texto">
+                    Información sobre tu CV...
+                </p>
+            </section>
+            
+            <!-- Sección 2 -->
+            <section class="col-md-4 footer-section">
+                <h4 class="footer-titulo">Navegación</h4>
+                <ul class="footer-nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#educacion">Educación</a></li>
+                </ul>
+            </section>
+            
+            <!-- Sección 3 -->
+            <section class="col-md-4 footer-section">
+                <h4 class="footer-titulo">Conecta Conmigo</h4>
+                <section class="footer-social">
+                    <a href="https://github.com/Alejo3119" 
+                       target="_blank" 
+                       class="social-link">
+                        🐙 GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/alejandro-quintero-agudelo" 
+                       target="_blank" 
+                       class="social-link">
+                        💼 LinkedIn
+                    </a>
+                </section>
+            </section>
+            
+        </section>
+        
+        <hr class="footer-sectionider">
+        
+        <section class="footer-bottom">
+            <p class="copyright">
+                &copy; 2026 Alejandro Quintero A. Todos los derechos reservados.
+            </p>
+            <p class="developed-by">
+                Desarrollado por: <strong>Alejandro Quintero A</strong> | 
+                Estudiante de Desarrollo Software
+            </p>
+        </section>
+    </section>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

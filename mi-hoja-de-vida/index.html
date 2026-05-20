@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Hoja de Vida - Alejandro Quintero Agudelo</title>
+    <!-- PRIMERO Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
-    <!-- IMPORTANTE: Bootstrap CDN -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<!-- DESPUÉS tu CSS (así sobreescribe a Bootstrap) -->
+<link rel="stylesheet" href="/mi-hoja-de-vida/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <!-- Tu archivo CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
+    
   </head>
   <body>
     <section class="container mt-5 mb-5">
@@ -83,12 +81,13 @@
               <h3 class="item-titulo">Institutos</h3>
               <ul class="lista-items">
                 <li>
-                  <strong>Nombre del Programa</strong><br />
-                  Institución: MAUJ SCHOOL<br />
+                  <strong>Institución: MAUJ SCHOOL</strong>
+                    <br />
                      Grado: 10<br>
-                  <strong></strong><br />
-                    Institución: Cesde<br />
-                  <strong>Institutos:</strong><br>   
+                  <br />
+                  </li>
+                  <li>
+                  <strong>Institución: Cesde</strong><br>   
                     Duración: 2 años<br>
                 </li>
               </ul>
@@ -125,7 +124,18 @@
               <p class="edu-institucion">🏫 MAUJ SCHOOL</p>
               <p class="edu-detalle">
                 <strong>Estado:</strong> En proceso |
+                <strong>Grado:</strong> 10° de bachillerato
+            <p class="edu-institucion">🤖 Robotica VEX</p>
+              <p class="edu-detalle">
+                <strong>Estado:</strong> Finalizado |
               </p>
+            <p class="edu-institucion">💻 Cesde</p>
+              <p class="edu-detalle">
+                <strong>Estado:</strong> En proceso |
+            <p class="edu-institucion">📚 Sena</p>
+              <p class="edu-detalle">
+                <strong>Certificado:</strong> TICS |
+                <strong>Estado:</strong> Finalizado |
             </section>
           </section>
           <section class="section-card">
@@ -134,7 +144,7 @@
             <section class="referencia-item">
               <section class="ref-header">
                 <h3 class="ref-nombre">Alejandro Quintero Agudelo</h3>
-                <p class="ref-puesto">Estudiante</p>
+                <p class="ref-puesto">Estudiante de 10 grado de bachillerato / Estudiante de tecnica en Desarrollo de software</p>
               </section>
 
               <section class="ref-contacto">
